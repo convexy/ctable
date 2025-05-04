@@ -1,0 +1,201 @@
+.ctable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 4px;
+  background-color: darkgreen;
+  width: max-content;
+}
+
+.ctable,
+.ctable th,
+.ctable td {
+  border: 2px solid darkgreen;
+}
+
+.ctable th,
+.ctable td {
+  padding: 0px 5px;
+}
+
+.ctable thead tr th {
+  background: linear-gradient(to bottom right, #90ee90, #90ee90cc);
+}
+
+.ctable tbody tr:nth-child(odd) {
+  background: linear-gradient(to bottom right, #bbffbb, #bbffbbcc);
+}
+
+.ctable tbody tr:nth-child(even) {
+  background: linear-gradient(to bottom right, #eeffee, #eeffeecc);
+}
+
+/*************************************************************/
+.ctable2 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 4px;
+  background-color: darkgreen;
+  width: max-content;
+  font-family: sans-serif;
+}
+
+.ctable2,
+.ctable2 th,
+.ctable2 td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+.ctable2 th,
+.ctable2 td {
+  padding: 0px 5px;
+}
+
+.ctable2 thead tr th {
+  background: linear-gradient(to bottom right, #90ee90, #90ee90cc);
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.ctable2 tbody tr:nth-child(odd) {
+  background: linear-gradient(to bottom right, #bbffbb, #bbffbbcc);
+}
+
+.ctable2 tbody tr:nth-child(even) {
+  background: linear-gradient(to bottom right, #eeffee, #eeffeecc);
+}
+
+.ctable2 tbody th {
+  font-weight: normal;
+  text-align: right;
+}
+
+.ctable2 tbody th:hover {
+  background-color: #f1f1f1;
+}
+
+/*************************************************************/
+.ctable3 {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.ctable3 th,
+.ctable3 td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.ctable3 th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.ctable3 tr:hover {
+  background-color: #f1f1f1;
+}
+
+/*************************************************************/
+.ctable4 {
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.ctable4 th,
+.ctable4 td {
+  padding: 0.75em 1em;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ctable4 th {
+  background-color: #f0f0f0;
+}
+
+.ctable4 tr:hover td {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/*************************************************************/
+.ctable5 {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.ctable5 th,
+td {
+  padding: 0.75em 1em;
+}
+
+.ctable5 tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ctable5 th {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+/*************************************************************/
+.ctable6 {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.ctable6 th,
+.ctable6 td {
+  padding: 0.75em 1em;
+}
+
+.ctable6 th {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+}
+
+.ctable6 tr:nth-child(even) {
+  background-color: #f1f9ff;
+}
+
+.ctable6 tr:hover {
+  background-color: #e0f0ff;
+}
+
+/*************************************************************/
+.ctable7 {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.ctable7 th,
+.ctable7 td {
+  padding: 0.5em 0.75em;
+  border-bottom: 1px solid #eee;
+}
+
+.ctable7 th {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85em;
+  color: #666;
+  font-weight: 600;
+}
+
+/*************************************************************/
+/*************************************************************/
+/*************************************************************/
+/*************************************************************/
+/*************************************************************/

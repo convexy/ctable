@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>CTable Preview</title>
+  <link rel="stylesheet" href="/src/common.css">
+  <link rel="stylesheet" href="/src/ctable.css">
+  <script type="module" src="/src/test.ts"></script>
+</head>
+
+<body>
+  <div style="height: 100vh; display: flex; flex-direction: column;">
+    <div id="search" style="margin: 10px;">
+      <form>
+        <label for="id">ID</label><input type="text" id="id">
+        <input type="submit" value="検索">
+      </form>
+    </div>
+    <div id="detail">
+      <table id="maintable"></table>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+.ctable {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid darkgreen;
+  border-radius: 10px;
+  overflow: hidden;
+  width: max-content;
+  height: max-content;
+  font-family: sans-serif;
+}
+
+.ctable thead tr th:first-child {
+  border-top-left-radius: 9px;
+}
+
+.ctable thead tr th:last-child {
+  border-top-right-radius: 9px;
+}
+
+.ctable tbody tr:last-child th:first-child,
+.ctable tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 9px;
+}
+
+.ctable tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 9px;
+}
+
+.ctable th,
+.ctable td {
+  padding: 0px;
+  border: 1px solid darkgreen;
+}
+
+.ctable th,
+.ctable td {
+  padding: 0px 5px;
+}
+
+.ctable thead tr th {
+  background: #90ee90;
+  /* background: linear-gradient(to bottom right, #90ee90, #77dd77); */
+}
+
+.ctable tbody tr:nth-child(odd) {
+  background: linear-gradient(to bottom right, #ddffdd, #ddffddcc);
+}
+
+.ctable tbody tr:nth-child(even) {
+  background: linear-gradient(to bottom right, #eeffee, #eeffeecc);
+}
+
+.ctable tbody th {
+  font-weight: normal;
+  text-align: right;
+}
+
+/* .ctable th:hover, */
+.ctable td:hover {
+  background-color: #f1f1f1;
+  cursor: cell;
+}
+
+.ctable .ctable-selected {
+  background-color: #f1f1f1;
+}
