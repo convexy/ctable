@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "convexy",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.8.3",
-    "vite": "^6.3.4"
+    "typescript": "^5.9.2"
   }
 }
